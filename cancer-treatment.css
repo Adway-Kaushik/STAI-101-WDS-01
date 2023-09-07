@@ -1,0 +1,97 @@
+body {
+    background-image: url("cancer-bg-hl.jpg");
+    background-size: cover;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.heading {
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.subwrite {
+    font-family: 'Space Grotesk', sans-serif;
+    text-align: justify;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffdf2c;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #ffc800;
+    font-family: Arial;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.drpdwn {
+    float: left;
+    overflow: hidden;
+}
+
+.drpdwn .drpdwnbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: #000000;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover,
+.drpdwn:hover .drpdwnbtn {
+    background-color: #ddd;
+}
+
+.drpdwn-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.drpdwn-content a {
+    float: none;
+    color: #ff57f4;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.drpdwn-content a:hover {
+    background-color: #ddd;
+}
+
+.drpdwn:hover .drpdwn-content {
+    display: block;
+}
+
+footer {
+    text-align: center;
+}
